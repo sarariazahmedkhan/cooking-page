@@ -104,7 +104,7 @@ img{
     width: 100%;
 
 }
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 350px){
     img{
         width: 280px;
         height: 170px;
@@ -112,4 +112,14 @@ img{
     button{
         margin-left:40px ;
         padding: 10px 15px ;
+    }
+    button:hover{
+        background-color: black;
+        color:#fff;
+        border:2px solid red;
+        cursor: pointer;
+
+    }
+    video{
+        width: 280px;
     }
